@@ -5,7 +5,7 @@ use warnings;
 
 use base 'Exporter';
 our @EXPORT_OK = qw(make_bookmarklet);
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 
 use URI::Escape qw(uri_escape_utf8);
 
@@ -58,15 +58,15 @@ The output of this script would be:
 
 =head1 DESCRIPTION
 
-A "bookmarklet" is a little JavaScript script that’s
-intended to be run from a web browser’s bookmarks bar or
+A "bookmarklet" is a little JavaScript script that's
+intended to be run from a web browser's bookmarks bar or
 menu. The reason they work as "bookmarks" is that the
 JavaScript source code is crammed into the form of a URL
 using the "javascript:" scheme.
 
 This package is based on a text filter John Gruber of Daring
-Fireball fame wrote that makes writing —- and especially
-revising —- JavaScript bookmarklets much more pleasant.
+Fireball fame wrote that makes writing --- and especially
+revising --- JavaScript bookmarklets much more pleasant.
 
 Developing or modifying bookmarklets can be irritating, to
 say the least, because of this requirement that the
@@ -107,8 +107,8 @@ Timothy Appnel <tima@cpan.org>
 
 =head1 SEE ALSO
 
-http://daringfireball.net/2007/03/
-javascript_bookmarklet_builder, L<make-bookmarklet>
+http://daringfireball.net/2007/03/javascript_bookmarklet_builder, 
+L<make-bookmarklet>
 
 =head1 COPYRIGHT AND LICENCE
 

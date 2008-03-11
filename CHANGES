@@ -1,5 +1,9 @@
 Revision history for Perl module JavaScript::Bookmarklet:
 
+0.02  Mar 13 2008 
+    - Documentation clean-up
+    - Specify minimum perl version of 5.6.
+
 0.01  Feb 23 2008 
     - Quick port, tidy and documentation of original Daring
       Fireball code.
